@@ -15,7 +15,7 @@ public class DemoHorses {
 
         RaceHorse horse2 = new RaceHorse();
 
-        //Set methods
+        //Set methods for each horse
         horse1.setName("Clydesdale");
         horse1.setColour("Brown");
         horse1.setBirthYear(1997);
