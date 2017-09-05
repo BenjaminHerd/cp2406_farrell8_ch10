@@ -1,21 +1,40 @@
 //Class with data fields
 
-public class Horse {
-
+public class Horse
+{
     //variable declaration
-    public String name;
-    public String colour;
-    public int birth_year;
+    private String name;
+    private String color;
+    private int birthYear;
 
-    //Setting variables inside the class to be used in later methods
-    public Horse(String name, String colour, int birth_year){
-        this.name = name;
-        this.colour = colour;
-        this.birth_year = birth_year;
+    //Methods for each variable instead of using a much simpler overloaded display method and setting the each values
+    // as a 'new' variable like what it does in the debugging exercises...
+
+    //You should set your variables before getting them
+    public void setName(String n)
+    {
+        name = n;
+    }
+    public void setColour(String c)
+    {
+        color = c;
+    }
+    public void setBirthYear(int y)
+    {
+        birthYear = y;
     }
 
-    //Shows results of information 'got' from this class
-    public void display(){
-        System.out.println("This horse is: " + name + " | With the colour of: " + colour + " | Born in: " + birth_year);
+    public String getName()
+    {
+        return name;
     }
+    public String getColour()
+    {
+        return color;
+    }
+    public int getBirthYear()
+    {
+        return birthYear;
+    }
+
 }
