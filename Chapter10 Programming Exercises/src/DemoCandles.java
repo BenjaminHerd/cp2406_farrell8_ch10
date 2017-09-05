@@ -1,5 +1,3 @@
-//Create clsses
-
 public class DemoCandles {
 
     //setting variables for both candles, with candle2 having one additional variable
