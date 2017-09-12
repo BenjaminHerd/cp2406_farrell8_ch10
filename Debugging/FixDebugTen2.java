@@ -10,6 +10,7 @@ public class FixDebugTen2
       FixDebugExtendedVacation yourVacation =
          new FixDebugExtendedVacation();
 
+      //Print statements
       System.out.println("My vacation is for " +
          myVacation.getDays() + " days");
       System.out.println("Your vacation is for " +
