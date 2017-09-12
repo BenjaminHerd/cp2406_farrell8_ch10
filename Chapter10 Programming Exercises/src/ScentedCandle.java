@@ -14,7 +14,7 @@ public class ScentedCandle extends Candle {
     }
 
     //override method called if ScentedCandle Class is used
-    //i.e. if a candle has a scent
+    //i.e. if a candle has a scent, it overrides the PER_INCH constant
     @Override
     public void setHeight(int h){
         final int PER_INCH = 3;

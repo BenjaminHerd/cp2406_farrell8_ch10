@@ -19,11 +19,11 @@ public class DemoCandles {
 
         //Print statements using getMethods() to retrieve values from passed variables into classes
         System.out.println("This candle is: " + candle1.getName() + " | It's colour is: " + candle1.getColour() +
-                " | It's height is: " + candle1.getHeight() + " inches | It's Price is: $" + candle1.getPrice() + ".00");
+                " | \nIt's height is: " + candle1.getHeight() + " inches\n | It's Price is: $" + candle1.getPrice() + ".00\n");
 
         System.out.println("The next candle is: " + candle2.getName() + " | It's colour is: " + candle2.getColour() +
-        " | It's height is: " + candle2.getHeight() + " inches | It's scent is also: " + candle2.getScent() +
-                " | It's price is: $" + candle2.getPrice() + ".00");
+        " | \nIt's height is: " + candle2.getHeight() + " inches\n | It's scent is also: " + candle2.getScent() +
+                " | It's price is: $" + candle2.getPrice() + ".00\n");
 
     }
 
